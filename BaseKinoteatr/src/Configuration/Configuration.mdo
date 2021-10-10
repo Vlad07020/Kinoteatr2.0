@@ -63,6 +63,7 @@
   <commonModules>CommonModule.НСИ</commonModules>
   <constants>Constant.Тест1</constants>
   <constants>Constant.Константа</constants>
+  <constants>Constant.Константа1</constants>
   <commonForms>CommonForm.ФормаОнлайнОплаты</commonForms>
   <commonForms>CommonForm.ФормаВыбораМест</commonForms>
   <commonForms>CommonForm.ФормаИнструкции</commonForms>
