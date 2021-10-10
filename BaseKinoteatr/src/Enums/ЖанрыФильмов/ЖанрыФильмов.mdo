@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e9478e0-bc09-45cb-b8fc-7c6a44257ebe">
+  <producedTypes>
+    <refType typeId="91cf9dda-6738-41bd-a0fd-58c385443c64" valueTypeId="ad48cd48-c2bf-4dfd-b3b2-349548136b5b"/>
+    <listType typeId="5cb1af6a-769d-4e64-88d0-a86112986e1b" valueTypeId="b593270f-b168-4c2b-86bd-f18d833ee569"/>
+    <managerType typeId="2853d6a6-7811-4de1-8091-1e7bf62589fe" valueTypeId="2ec6b628-c13c-42c0-b8d1-92fe0b64c0ed"/>
+  </producedTypes>
+  <name>ЖанрыФильмов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Жанры фильмов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9e3fcec2-a4e4-4fed-b8e5-ecab7baad976">
+    <name>Ужасы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ужасы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86bc209f-d83d-4986-8e4f-81b48eab1665">
+    <name>Мелодрама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мелодрама</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92bc60b7-6e91-44a0-8cef-4203ebcb3d80">
+    <name>Комедия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комедия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eb3a1e1-8fcd-4bb0-b998-41f2e732b86f">
+    <name>Биографический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биографический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14aaf297-6c77-4f6d-bfce-ec1bece8969d">
+    <name>Боевик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Боевик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2051eb2c-d789-4695-8952-c7e2336473ed">
+    <name>Военный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Военный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbe05b5f-9e39-47c8-a229-acf3829e2a1e">
+    <name>Детектив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детектив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1d57fd0-f8be-4b6c-a700-8ace8ed2eaa8">
+    <name>Документальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="79926e40-55b1-421d-bc41-7edcaf8373e4">
+    <name>Драма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Драма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e6ef9e7-ce71-4946-8e37-2b5010934a99">
+    <name>Исторический</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исторический</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="389970a0-75cd-4b8f-ad7a-62ded9f7c9a5">
+    <name>Криминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Криминал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5dd49e98-6403-48ca-9c96-0327ac312e7f">
+    <name>Мистика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мистика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd2361c1-4e14-44e8-b7d2-81978044b7ae">
+    <name>Мюзикл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мюзикл</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37b930d1-490e-4c4c-a507-66d2a27c4727">
+    <name>Научный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Научный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a26e3e0-c382-449b-8d08-34ae07319be3">
+    <name>Приключения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приключения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b50a260-2d42-4a89-bdb2-fc93f058aebd">
+    <name>Семейный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Семейный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5273b68e-3aca-4a61-a482-1f2d0b1197d7">
+    <name>Спорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Спорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e93a2eb7-dc64-424b-97b1-fe4d4d31a773">
+    <name>Триллер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Триллер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="522687d7-ecd1-4be2-9e61-b88043c57fcd">
+    <name>Фантастика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фантастика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="965b6f60-6ab3-4d6c-bde9-e754b0dfd386">
+    <name>Фэнтези</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фэнтези</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

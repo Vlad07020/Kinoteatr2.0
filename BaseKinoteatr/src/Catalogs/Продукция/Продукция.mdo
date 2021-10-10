@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="233b9e92-2a29-47ee-99aa-a7fa84780420">
+  <producedTypes>
+    <objectType typeId="4420ca0c-2fbb-4494-9951-54b0a2bedb26" valueTypeId="574d0882-b9df-45d1-8a4b-02f56ed7a17f"/>
+    <refType typeId="ac9738f5-c494-441b-8395-dd799f0c69bf" valueTypeId="39b4d056-094b-4a26-9734-70f7f915ce0d"/>
+    <selectionType typeId="1f5d3e09-0260-4d03-8421-66f247819837" valueTypeId="51e05a1a-f7f0-4294-b7d1-b32adca1f268"/>
+    <listType typeId="2c649ea1-e43c-4a76-b631-5db3a3a74a35" valueTypeId="3f732fc6-e3a7-48e7-a00d-998c504bc6a8"/>
+    <managerType typeId="a09a0af2-3aa9-4372-a127-79fb48d98186" valueTypeId="bad90bc8-f19d-49fe-987f-ec375affbbc7"/>
+  </producedTypes>
+  <name>Продукция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Продукция.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Продукция.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Кинотеатры</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Продукция.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Продукция.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Продукция.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="14b605c4-54b2-4378-a0f3-5983d5860f9c">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d595b1d-b9b4-44ac-943d-2af1fc9e2c88">
+    <name>ЦенаПродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена продажи</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="84b8c341-ae9c-467b-9dd2-3c7d5bcb2d99">
+    <name>Состав</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="431ddcda-afcc-4bab-942b-0a7c844aa4df">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d27c2321-4179-49fc-9208-b6bb3c680022">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b1d2ee1c-a55b-4a10-a1d4-8815846f900a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1f6d37d-bbbe-4b9b-8ed3-42430fb7ab97">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

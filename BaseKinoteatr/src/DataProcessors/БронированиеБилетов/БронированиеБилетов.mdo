@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97d075f5-b143-4811-b29f-7d0554ea128a">
+  <producedTypes>
+    <objectType typeId="1c62cdcf-ebb7-4472-9c69-e8dd928cfb02" valueTypeId="40eb4b59-58f1-416d-87e5-08e8763af840"/>
+    <managerType typeId="064f5cfb-0b14-4d69-adc0-073db1241ba6" valueTypeId="6b4fed9a-5162-421d-aa06-61aa2740c5f4"/>
+  </producedTypes>
+  <name>БронированиеБилетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бронирование билетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.БронированиеБилетов.Form.Форма</defaultForm>
+  <attributes uuid="85c1989a-1668-4f0f-8579-1271d2b3efb7">
+    <name>Кинотеатр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кинотеатр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кинотеатры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ebcf534d-204b-47bd-9fea-23836a1b9c90">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4b24c837-b970-49f3-8a03-9b28413d2168">
+    <name>ДатаСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата сеанса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9909280b-d8c3-416a-b08a-c51670e3ad8c">
+    <name>Сеанс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сеанс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="c3ad0e5d-17bd-4f05-b79d-8ce4edfb52aa">
+    <producedTypes>
+      <objectType typeId="7ba68e21-e440-4f95-b85a-02d08cc001ef" valueTypeId="53803dac-d225-4cf6-ba14-32869a228bd8"/>
+      <rowType typeId="5ac81d96-b1ed-4075-875d-17f2b3d2ccd7" valueTypeId="4ff816e6-4cda-407e-a3b0-f7a9b54b6aa2"/>
+    </producedTypes>
+    <name>Билеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Билеты</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9cb76940-5d9b-4adf-846d-ad3649e65711">
+      <name>РядМесто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ряд/место</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="66f1bcc3-3f5b-4adb-83ff-edf7047db13e">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="63d053f6-4e91-4ad3-af4e-79a088e5e8a6">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

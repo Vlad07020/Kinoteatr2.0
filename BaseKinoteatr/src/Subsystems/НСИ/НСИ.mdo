@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a82e213c-03d6-4d4f-bbdc-e5275e4d7593">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>НСИ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодсистемаНСИ</picture>
+  </picture>
+  <content>Catalog.Продукция</content>
+  <content>Catalog.СхемыЗалов</content>
+  <content>Catalog.Страны</content>
+  <content>Catalog.Кинозалы</content>
+  <content>Catalog.Фильмы</content>
+  <content>Catalog.Кинотеатры</content>
+  <content>CommonPicture.ПодсистемаНСИ</content>
+  <content>DataProcessor.СформироватьСеансы</content>
+</mdclass:Subsystem>

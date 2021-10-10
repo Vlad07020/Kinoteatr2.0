@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ba47704-cf57-47fb-8fee-bad571015d96">
+  <producedTypes>
+    <objectType typeId="6b290200-e620-4e25-a25b-7a08d9b008fb" valueTypeId="63bba1f7-3042-4bab-ac27-d79b9d828781"/>
+    <refType typeId="d418e930-4646-43bf-b6e7-ae440e539adc" valueTypeId="64485b9c-ef51-49fe-848b-6e1a2dcbf289"/>
+    <selectionType typeId="6d68d907-3cfe-4ae8-aa70-6e8e8012ac55" valueTypeId="ea5f78ce-ca2b-4eef-a2b9-f17b3823668f"/>
+    <listType typeId="b3f5cf97-ffff-40eb-8ab3-98a134b1628f" valueTypeId="94410754-0fd7-4497-b4a1-b71ae81a5836"/>
+    <managerType typeId="c8f23e68-128b-4257-9ffa-be5f9ab26b8c" valueTypeId="2484eeaa-674f-4f87-b843-0433f55df36b"/>
+  </producedTypes>
+  <name>Кинозалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кинозалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кинозалы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Кинозалы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Кинотеатры</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Кинозалы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Кинозалы.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="cf243f5c-a37f-4b93-8fed-373a6eda7f4c">
+    <name>СхемаЗала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема зала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СхемыЗалов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ba8372d3-5cf0-45cd-8567-24eef9b8bc6f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e59b684b-1d3a-4627-9f78-bba9ad129e95">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

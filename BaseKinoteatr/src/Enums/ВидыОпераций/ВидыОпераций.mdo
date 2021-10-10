@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5aa77371-a22b-40ae-bb4f-d5e360586a95">
+  <producedTypes>
+    <refType typeId="4ff15293-5477-40dc-b8b0-575fc26f5ed5" valueTypeId="45d56d7f-2775-4ce6-9cf2-6e92336bf589"/>
+    <listType typeId="dcbb4ef8-3f93-40eb-9a21-e26282d8afd2" valueTypeId="067b84d9-3e8b-4f2f-9bf9-5220e3dc6ce5"/>
+    <managerType typeId="fd3d2244-5b2f-43d0-b8bb-c5f26a536df5" valueTypeId="0628be28-0a96-4392-a701-9e94ea1766a9"/>
+  </producedTypes>
+  <name>ВидыОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="859be49a-55b3-4689-b421-91cf3de9f299">
+    <name>БронированиеБилетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бронирование билетов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76dd4e79-1801-4443-98cc-53eb48c3a774">
+    <name>ПродажаБилетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа билетов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1725e43-0c0a-4b01-a57f-a62d99e16c01">
+    <name>ЗаказПродукцииИзБара</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ продукции из бара</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

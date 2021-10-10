@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76863e22-7aad-4d2b-83c5-86d73fe1d2d2">
+  <name>Кинотеатр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кинотеатр</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c9eb3679-18a7-40e0-a1b3-579936c0e80d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="9bf8c369-9f4b-484f-bbc7-518f5a9e2d2a"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="9fe6fa53-eec9-46b4-9fd2-588278edee9e"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b19e0d29-0bfd-4fc1-a00f-74eaa7dc0302"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="25329bea-4947-42a1-8d1d-bf20269dda5b"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="6553fa3f-cfb3-4e13-91db-f4f6b448fde9"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="ace3ebc1-ec3a-44c5-9296-2cb9133f52e0"/>
+  <configurationExtensionCompatibilityMode>8.3.19</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Балабанов Влад и Пантелеймонова Анастасия</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
+  <languages uuid="3e5c2100-bfc0-4ca3-b685-f72f08f62271">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Бар</subsystems>
+  <subsystems>Subsystem.Кино</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <commonPictures>CommonPicture.QRКодДляОплатыОнлайн</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаНСИ</commonPictures>
+  <commonPictures>CommonPicture.ПодсистемаКино</commonPictures>
+  <commonPictures>CommonPicture.ПодситсемаБар</commonPictures>
+  <commonPictures>CommonPicture.Кинобилет</commonPictures>
+  <commonPictures>CommonPicture.ОбозначениеМест</commonPictures>
+  <commonPictures>CommonPicture.Заставка</commonPictures>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Клиент</roles>
+  <roles>Role.Кассир</roles>
+  <roles>Role.Бармен</roles>
+  <commonModules>CommonModule.ПочтовыеРассылки</commonModules>
+  <commonModules>CommonModule.ВспомогательныеФункции</commonModules>
+  <commonModules>CommonModule.Кино</commonModules>
+  <commonModules>CommonModule.Бар</commonModules>
+  <commonModules>CommonModule.НСИ</commonModules>
+  <constants>Constant.Тест1</constants>
+  <commonForms>CommonForm.ФормаОнлайнОплаты</commonForms>
+  <commonForms>CommonForm.ФормаВыбораМест</commonForms>
+  <commonForms>CommonForm.ФормаИнструкции</commonForms>
+  <commonForms>CommonForm.ФормаРасписанияСеансов</commonForms>
+  <catalogs>Catalog.Продукция</catalogs>
+  <catalogs>Catalog.СхемыЗалов</catalogs>
+  <catalogs>Catalog.Страны</catalogs>
+  <catalogs>Catalog.Кинозалы</catalogs>
+  <catalogs>Catalog.Фильмы</catalogs>
+  <catalogs>Catalog.Кинотеатры</catalogs>
+  <documents>Document.ЗаказПродукции</documents>
+  <documents>Document.ПродажаПродукции</documents>
+  <documents>Document.ПоступлениеПродукции</documents>
+  <documents>Document.ПродажаБилетов</documents>
+  <enums>Enum.ВозрастныеОграничения</enums>
+  <enums>Enum.ЖанрыФильмов</enums>
+  <enums>Enum.ВидыОпераций</enums>
+  <reports>Report.ОтчетПродажиПродукции</reports>
+  <dataProcessors>DataProcessor.БронированиеБилетов</dataProcessors>
+  <dataProcessors>DataProcessor.СформироватьСеансы</dataProcessors>
+  <dataProcessors>DataProcessor.РасписаниеСеансов</dataProcessors>
+  <informationRegisters>InformationRegister.РасписаниеСеансов</informationRegisters>
+  <informationRegisters>InformationRegister.ПроданныеБилеты</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ПродажиПродукции</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПродукции</accumulationRegisters>
+</mdclass:Configuration>

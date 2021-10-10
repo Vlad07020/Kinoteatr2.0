@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Decoration">
+    <name>Декорация1</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 12>&lt;b>Доброго времени суток!&lt;/>&lt;/>
+Вы вошли в систему &quot;Кинотеатр&quot;
+
+
+Слева на экране отображено расписание сеансов на конкретную дату.
+
+Установите нужные Вам параметры поиска (&quot;Дата сеанса&quot;, &quot;Кинотеатр&quot; или &quot;Фильм&quot;), чтобы отбразились только интересующие Вас сеансы.
+
+Если после применения Ваших параметров расписание пустое, то, к сожалению, по Вашим отборам доступных сеансов нет.
+
+
+&lt;fontsize 10>&lt;b>&lt;i>Краткая инструкция по использованию системы:&lt;/>&lt;/>&lt;/>
+
+&lt;fontsize 7>     &lt;/>&lt;b>I.&lt;/>&lt;fontsize 7>&lt;b>  &lt;/>&lt;/>&lt;b>Бронирование билетов на сеанс:&lt;/>
+           &lt;b> 1.&lt;/>&lt;fontsize 7>  &lt;/>Если вы желаете оформить бронирование на сеанс, перейдите в раздел «Кино» на верхней панели.
+            &lt;b>2.&lt;/>&lt;fontsize 7>  &lt;/>Нажмите на кнопку «Сервис» и в выпадающем списке выберите команду «Оформить бронирование».
+ 
+&lt;fontsize 7>    &lt;/>&lt;b>II.&lt;/>&lt;fontsize 7>&lt;b>  &lt;/>&lt;/>&lt;b>Просмотр репертуара кинотеатров:&lt;/>
+           &lt;b> 1.&lt;/>&lt;fontsize 7>  &lt;/>Если вы желаете ознакомиться с фильмами, которые идут в прокате в нашей сети кинотеатров, перейдите в раздел «Кино» на верхней панели и выберите подраздел «Фильмы».
+ 
+&lt;fontsize 7>    &lt;/>&lt;b>III.&lt;/>&lt;fontsize 7>&lt;b> &lt;/>&lt;/>&lt;b>Просмотр информации о кинотеатрах:&lt;/>
+            &lt;b>1.&lt;/>&lt;fontsize 7>  &lt;/>Если вы желаете ознакомиться с кинотеатрами, которые входят в нашу сеть, перейдите в раздел «НСИ» на верхней панели и выберите подраздел «Кинотеатры».
+ 
+&lt;fontsize 7>    &lt;/>&lt;b>IV.&lt;/>&lt;fontsize 7>&lt;b> &lt;/>&lt;/>&lt;b>Просмотр продукции бара:&lt;/>
+            &lt;b>1.&lt;/>&lt;fontsize 7>&lt;b> &lt;/>&lt;/>Если вы желаете ознакомиться с продукцией баров сети, перейдите в раздел «Бар» на верхней панели и выберите подраздел «Продукция».
+            &lt;b>2.&lt;/> В открывшейся форме в поле «Кинотеатр» выберите интересующий Вас бар.
+ 
+&lt;fontsize 7>    &lt;/>&lt;fontsize 7>&lt;b> &lt;/>&lt;/>&lt;b>V.&lt;/>&lt;fontsize 7>&lt;b> &lt;/>&lt;/>&lt;b>Заказ продукции из бара:&lt;/>
+            &lt;b>1.&lt;/>&lt;fontsize 7> &lt;/>Если вы желаете оформить заказ продукции через веб-портал, перейдите в раздел «Бар» на верхней панели и выберите подраздел «Продукция».
+            &lt;b>2.&lt;/>&lt;fontsize 7> &lt;/>В открывшейся форме нажмите на кнопку «Заказать продукцию».</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>Декорация1РасширеннаяПодсказка</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>Декорация1КонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

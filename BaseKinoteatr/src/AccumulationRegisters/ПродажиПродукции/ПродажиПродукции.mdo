@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7274f5e-3d40-4182-9b8f-d275b0dc4f5c">
+  <producedTypes>
+    <selectionType typeId="a6848c32-3bc8-4478-996f-eb4ad705f1be" valueTypeId="0f80d360-08a8-4b45-bf3f-61bab61f39b0"/>
+    <listType typeId="f7f5e62e-4dbc-4f7f-814a-01679a10e5cb" valueTypeId="5b178fd5-b84f-4af5-9017-1ced007db767"/>
+    <managerType typeId="68ed8b5c-e13a-488c-ba55-1d10fc6f89d5" valueTypeId="08d74902-c5b7-4d49-aa2c-23e5e16f13d0"/>
+    <recordSetType typeId="ebd10f96-c35b-48e5-b14f-ea3ba49cbaf5" valueTypeId="53ce392e-d096-41a0-9eb0-e73234269844"/>
+    <recordKeyType typeId="46689024-2b97-4f7e-80c4-3c49f08d0b8a" valueTypeId="2a30b21f-dc2d-497e-b21b-6524564388f6"/>
+    <recordType typeId="b08a5419-3cdc-44f9-8ef8-32439f0b7778" valueTypeId="0966568e-42f1-45d9-9626-dd606d567166"/>
+  </producedTypes>
+  <name>ПродажиПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продажи продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="6239280a-64ad-4538-b2de-4b7bba484faf">
+    <name>СтоимостьПродаж</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость продаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="117871f9-7d3e-447d-a3d7-9568f2d13369">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1f56c1e4-1f0e-4e78-9166-fc5e1709e549">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукция</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="dd109bfd-e33a-4a55-a632-7f086dca621f">
+    <name>Кинотеатр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кинотеатр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кинотеатры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

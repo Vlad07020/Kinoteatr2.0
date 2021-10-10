@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00253331-1a32-4140-ba18-c8bd8040799d">
+  <producedTypes>
+    <objectType typeId="066031f0-b07c-45bb-af39-d884f8da23d3" valueTypeId="c55bc00f-69c9-4c2f-aa47-b568bbd7e3c7"/>
+    <managerType typeId="1e41b3bf-da5c-43ac-8003-4f8ca1885372" valueTypeId="105e157f-438c-4b1f-9556-2aeabb522df4"/>
+  </producedTypes>
+  <name>РасписаниеСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание сеансов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РасписаниеСеансов.Form.ФормаРасписанияСеансов</defaultForm>
+  <forms uuid="b1e49000-12bf-4b3b-87ac-4eb19aa18507">
+    <name>ФормаРасписанияСеансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расписание сеансов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ad05a100-8f9a-495c-afd1-87a9775d0a9c">
+  <name>QRКодДляОплатыОнлайн</name>
+  <synonym>
+    <key>ru</key>
+    <value>QRКод для оплаты онлайн</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

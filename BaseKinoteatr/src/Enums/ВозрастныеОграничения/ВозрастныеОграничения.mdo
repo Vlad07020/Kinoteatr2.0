@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d32f583-d070-45a8-bc91-50c03363c0fb">
+  <producedTypes>
+    <refType typeId="2fd65f6a-cbc7-4896-8081-790d1c8544ad" valueTypeId="67174748-73a6-47e4-8eb9-488f8daa6d86"/>
+    <listType typeId="7af926f0-eaf2-4b10-b06a-d32ab6e0916b" valueTypeId="ab2ce8cc-3257-406f-9e2f-53d87955e38b"/>
+    <managerType typeId="17e6ecaa-d21d-4ef6-8cb8-92e78ad9c05d" valueTypeId="88565848-c71c-4ba8-a96c-d7cb51444085"/>
+  </producedTypes>
+  <name>ВозрастныеОграничения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возрастные ограничения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ff1d1023-e74b-47d7-aa83-73f3909e0bb5">
+    <name>НольПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>0+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10b0307a-a6f7-446f-af3a-d09134873062">
+    <name>ШестьПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>6+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7869f36-b8e1-432e-a130-6ea717c63fa3">
+    <name>ДвенадцатьПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>12+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74c0e3c7-6bcb-4b5b-a8a7-243e976aa6a8">
+    <name>ШестнадцатьПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>16+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0214d84-50df-400c-8ac0-a4112550cc34">
+    <name>ВосемнадцатьПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>18+</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

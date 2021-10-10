@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6174ff14-146e-4eaa-86e7-65beff01d6b8">
+  <producedTypes>
+    <selectionType typeId="5b598095-576f-447b-a7b6-7d83ab7a2e00" valueTypeId="68abdf02-f634-4cc2-9041-5dbca17d9afd"/>
+    <listType typeId="d308b6f9-b2dc-400e-af5f-0acf7556441c" valueTypeId="bbc4d1ab-33bf-4c3f-908a-42f3b3ed3a52"/>
+    <managerType typeId="110b05a3-f119-48ee-b18f-c4e76fe1272d" valueTypeId="f39e570c-e0a9-445c-82e8-c109cc2ddc70"/>
+    <recordSetType typeId="640ee364-b96f-4782-adda-8080006bf6a9" valueTypeId="53c62aae-f153-45fe-8c2e-fc114cee5a96"/>
+    <recordKeyType typeId="4480694c-2059-47bb-a778-d31e2f87b97f" valueTypeId="ab787a54-86b4-4d70-9c2f-e302b13ef1ee"/>
+    <recordType typeId="e22b80bd-9e3b-431d-8564-9992d8869d8a" valueTypeId="12c96a8a-bce0-4d86-848a-79128a950632"/>
+  </producedTypes>
+  <name>ОстаткиПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>RecordType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="3002af58-8499-47d1-b794-9320a0d1249a">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1e3f0d8a-b210-49ea-96a7-fe94a085d0a3">
+    <name>Товар</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Продукция</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="b4e556f6-aecc-4e2a-ba7f-c342f0aac711">
+    <name>Кинотеатр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кинотеатр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кинотеатры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

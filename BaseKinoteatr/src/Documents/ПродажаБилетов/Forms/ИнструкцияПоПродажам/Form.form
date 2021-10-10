@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Decoration">
+    <name>Декорация1</name>
+    <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>&lt;fontsize 10>&lt;b>ОБЫЧНАЯ ПРОДАЖА&lt;/>&lt;/>
+&lt;fontsize 10>&lt;b>1)&lt;/>&lt;/>&lt;fontsize 10> Заполните необходимые параметры сеанса (дата сеанса, кинотеатр, фильм);&lt;/>
+&lt;fontsize 10>&lt;b>2)&lt;/>&lt;/>&lt;fontsize 10> Перейдите в поле &quot;Сеанс&quot; и выберите один из сеансов списка. (если нет ни одного элемента для выбора, то по заданным Вами параметрам нет доступных сеансов);&lt;/>
+&lt;fontsize 10>&lt;b>3)&lt;/>&lt;/>&lt;fontsize 10>&lt;b> &lt;/>&lt;/>&lt;fontsize 10>Нажмите кнопку &quot;Провести&quot;. После этого данные будут занесены в систему и будут учитываться при последующих продажах и бронированиях.&lt;/>
+
+
+&lt;fontsize 10>&lt;b>ПРОДАЖА ЗАБРОНИРОВАННЫХ БИЛЕТОВ&lt;/>&lt;/>
+&lt;fontsize 10>&lt;b>1)&lt;/>&lt;/>&lt;fontsize 10> Установите дату сеанса брони и код бронирования*;&lt;/>
+&lt;fontsize 10>&lt;b>2) &lt;/>&lt;/>&lt;fontsize 10>Нажать на кнопку &quot;Заполнить по коду бронирования&quot;;&lt;/>
+&lt;fontsize 10>&lt;b>3)&lt;/>&lt;/>&lt;fontsize 10> Если все данные введены корректно, то табличная часть заполнится забронированными местами;&lt;/>
+&lt;fontsize 10>&lt;b>4)&lt;/>&lt;/>&lt;fontsize 10>&lt;b> &lt;/>&lt;/>&lt;fontsize 10>Нажмите кнопку &quot;Провести&quot;. После этого данные будут занесены в систему и будут учитываться при последующих продажах и бронированиях.&lt;/>
+
+
+&lt;fontsize 8>*Код бронирования необходимо спросить у клиента. Клиент мог либо запомнить его, либо получить сообщение на почту с информацией о бронировании (если он воспользовался данной функцией)&lt;/></value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <extendedTooltip>
+      <name>Декорация1РасширеннаяПодсказка</name>
+      <id>3</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>Декорация1КонтекстноеМеню</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <formatted>true</formatted>
+    <type>Label</type>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <extInfo xsi:type="form:LabelDecorationExtInfo">
+      <horizontalAlign>Left</horizontalAlign>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

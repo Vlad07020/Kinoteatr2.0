@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e55055-7f70-44a7-b6d4-2169f86164cb">
+  <producedTypes>
+    <selectionType typeId="7996f923-4fe6-4a15-871c-1957e6e2cb38" valueTypeId="58c69b29-0186-41db-81b1-d9588262cf18"/>
+    <listType typeId="4f9de493-e8d3-4c12-81d8-8c56aba235ec" valueTypeId="6a55740a-be61-415e-9351-a53d51b88c6c"/>
+    <managerType typeId="9dfcd97b-a5b3-4ffe-a4fb-2f873540b26d" valueTypeId="e921d970-20cf-4963-9ac9-bc056d7d5999"/>
+    <recordSetType typeId="e02d31bf-0c2b-4d3a-a1af-e38aa1180948" valueTypeId="517bad3f-99a3-4c27-8000-bc87b7bf4712"/>
+    <recordKeyType typeId="20f864c2-5879-4f17-97a9-a442abe5e8c2" valueTypeId="28e08a84-f5f3-4905-a16e-84edcdf70136"/>
+    <recordType typeId="d264d6d3-1928-46dd-ab65-9bdbf5692e7d" valueTypeId="6294ec72-c95a-4a56-9e9f-48087834a900"/>
+    <recordManagerType typeId="b68d6f06-0831-4624-832f-f2903a3fbcec" valueTypeId="2420c6b1-13ab-4ca2-989c-28736b415ef0"/>
+  </producedTypes>
+  <name>РасписаниеСеансов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расписание сеансов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.РасписаниеСеансов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.РасписаниеСеансов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="1a4c86ed-fe03-4704-9323-e4904bf8037d">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9019c211-cbe6-4b84-94d8-238f1513d79d">
+    <name>ВремяСеанса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время сеанса</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="18d77375-cc36-4215-806c-c55d2d7a1e27">
+    <name>Зал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кинозалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4a673adb-9596-4b22-b1af-35adeec7ba8f">
+    <name>Кинотеатр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кинотеатр</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кинотеатры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dc87ca18-ea95-433a-9194-eb9c396c1aea">
+    <name>Фильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фильм</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Фильмы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="9b578f2e-8e02-4843-959a-40a799d533ff">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66fa422a-cf42-48d4-99df-8ae0eec6df9d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

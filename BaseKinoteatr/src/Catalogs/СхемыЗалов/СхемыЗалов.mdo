@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="15d5daf2-ca5f-48d0-a696-e8852259da5e">
+  <producedTypes>
+    <objectType typeId="b38e5692-d185-4e20-a478-e4a6e3e3a3e3" valueTypeId="5d384ddc-afa1-4cd0-a28f-f5db3cc3dc45"/>
+    <refType typeId="7a5372d2-d48b-4a64-935b-988a57e1a8a8" valueTypeId="f7fee530-be24-49f7-ae08-7b988846c757"/>
+    <selectionType typeId="f0a95dbf-4871-465c-9ae4-64a5e043c95d" valueTypeId="8e9848ef-b5cf-4ac4-8ace-4d69541a3c9c"/>
+    <listType typeId="580d8996-8454-49be-aabb-4e370fc9729a" valueTypeId="efef6188-2677-4ed7-8176-7e9b77068d4b"/>
+    <managerType typeId="e0ddaf2f-60bc-4892-9887-6dad82d23582" valueTypeId="34c8af79-f5f6-4d45-b44b-e71fa60623ed"/>
+  </producedTypes>
+  <name>СхемыЗалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Схемы залов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СхемыЗалов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СхемыЗалов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СхемыЗалов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СхемыЗалов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="4c066b76-04d4-40d3-b549-784398a12a65">
+    <name>Схема</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="71eceedb-1ac3-4049-a129-6ef81cd321f3">
+    <name>ВсегоМест</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего мест</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f31ea885-031b-476a-9910-92678d0cbdb5">
+    <name>КоличествоРядов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество рядов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccb248eb-4df5-49e6-8c01-c65d5ee70d6a">
+    <name>КоличествоМестНаРяд</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество мест на ряд</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="36cf35ef-caf3-4df9-b991-a7f468d5123f">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d582776b-9838-4114-9ce3-989975999560">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="fad9d958-7af4-4907-966e-3dd1710a50da">
+    <name>СхемаУниверсал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема универсал</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

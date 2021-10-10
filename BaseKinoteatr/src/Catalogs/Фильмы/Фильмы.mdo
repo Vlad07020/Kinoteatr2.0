@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7da5d864-3080-44c1-b47d-0b96275981c5">
+  <producedTypes>
+    <objectType typeId="f2bc8dcb-2806-4cd8-8622-0ea232d6075d" valueTypeId="955fe321-fe00-44e7-8df2-98bfa0ef0c57"/>
+    <refType typeId="62d2b486-103d-4d53-ae16-0b1637f59fe2" valueTypeId="11c831be-5958-447f-8aa4-924cb40dcf78"/>
+    <selectionType typeId="e839f3b7-106f-4f52-bf35-1190f088edf8" valueTypeId="f91154ca-9a52-4143-b030-883bc5cb38fe"/>
+    <listType typeId="e39b3480-c805-4dd0-9772-1fd2b7f82733" valueTypeId="7ce5fa1b-3227-46a9-a3de-d1d2332177da"/>
+    <managerType typeId="071ae884-04d9-4d6c-89e2-364be94fae31" valueTypeId="f87eab43-9815-4a82-b316-4e8a96ef5cb2"/>
+  </producedTypes>
+  <name>Фильмы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фильмы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Фильмы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Фильмы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Фильмы.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Фильмы.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.Фильмы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="8a46a089-fa70-4b9b-90cb-7c456d83db1e">
+    <name>Фото</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фото</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="93031483-c611-4638-80f8-3f4e9f7651be">
+    <name>Анонс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анонс</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4edf3e69-7c21-46b2-8488-72354d5c934c">
+    <name>Длительность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="10a4c4df-69ff-4919-8474-de6fd98bc608">
+    <name>ВозрастноеОграничение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возрастное ограничение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВозрастныеОграничения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0d451249-323e-46b8-b817-c68855867942">
+    <name>СтранаПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Страны</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95bf741e-6b85-48e6-80d3-b405fdd85e80">
+    <name>ЖанрФильма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жанр фильма</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЖанрыФильмов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="efab5e3c-9438-4edd-9eb3-79e7d063b773">
+    <name>ВПрокате</name>
+    <synonym>
+      <key>ru</key>
+      <value>В прокате</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="98a4e550-8bd1-4e82-8946-28f003a49631">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cb4f5361-01fb-47a2-a3f6-665b1cdf7a8d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ca2493f-c3a8-4d24-8132-48fefcc57264">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
