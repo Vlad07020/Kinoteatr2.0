@@ -65,6 +65,7 @@
   <constants>Constant.Константа</constants>
   <constants>Constant.Константа1</constants>
   <constants>Constant.МыУстали</constants>
+  <constants>Constant.Константа2</constants>
   <commonForms>CommonForm.ФормаОнлайнОплаты</commonForms>
   <commonForms>CommonForm.ФормаВыбораМест</commonForms>
   <commonForms>CommonForm.ФормаИнструкции</commonForms>
